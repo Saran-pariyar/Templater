@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>service_thing Information</h2>
+
+<table border="" class="service_thing-table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Duration</th>
+            <th>Stop</th>
+            <th>Departure Date</th>
+            <th>Departure Time</th>
+            <th>Arrival Date</th>
+            <th>Arrival Time</th>
+            <th>Discount Fare</th>
+            <th>Standard Fare</th>
+            <th>GoWild Fare</th>
+
+        </tr>
+    </thead>
+    <tbody id="service_thing-table-body">
+    
+    </tbody>
+</table>
+
+<h2>Input data and get the information</h2>
+<form id="service_thingForm">
+    <label for="ori">Origin:</label>
+    <select id="ori" name="ori" >
+
+    </select>
+
+    <label for="dest">Destination:</label>
+    <select id="dest" name="dest" >
+
+    </select>
+
+    <label for="dd">Date:</label>
+    <input type="date" id="dd" name="dd">
+
+    <input type="submit" value="Submit" class="submit">
+</form>
+
+
+<table class="service_thing-table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Duration</th>
+            <th>Stop</th>
+            <th>Departure Date</th>
+            <th>Departure Time</th>
+            <th>Arrival Date</th>
+            <th>Arrival Time</th>
+            <th>Discount Fare</th>
+            <th>Standard Fare</th>
+            <th>Go Wild Fare</th>
+
+        </tr>
+    </thead>
+    <tbody id="form-service_thing-table-body"></tbody>
+</table>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
